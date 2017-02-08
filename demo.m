@@ -4,6 +4,8 @@ close, clear, clc;
 
 %%% Path
 addpath(fullfile(pwd,'utils'));
+addpath(fullfile(pwd,'libs','PROPACK'));
+addpath(genpath(fullfile(pwd,'libs','manopt','manopt')));
 
 %%% Params
 params.debug = 1;
@@ -51,6 +53,7 @@ for alg = 1:size(params.algs_name,2)
   I_bg = reshape(M_bg,size(V,1),size(V,2));
   if(params.debug)
     clf,imshow(I_bg);
+    title(current_alg_name);
     pause(1);
   end
   
