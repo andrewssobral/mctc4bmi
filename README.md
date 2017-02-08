@@ -25,5 +25,6 @@ List of the algorithms:
 |----------------|--------------------------------------------------------------|----------------------|
 |<sub>**Matrix Completion**</sub>| | |
 |                | [GROUSE](https://github.com/andrewssobral/mctc4bmi/blob/master/algs_mc/GROUSE) | [Balzano and Wright (2013)](http://ieeexplore.ieee.org/document/6713992/) |
+|                | [IALM](https://github.com/andrewssobral/mctc4bmi/blob/master/algs_mc/IALM) | [Lin et al.(2010)](https://arxiv.org/abs/1009.5055) |
 |<sub>**Tensor Completion**</sub>| | |
 |                | [TMac](https://github.com/andrewssobral/mctc4bmi/tree/master/algs_tc/TMac) | [Xu et al. (2015)](https://arxiv.org/abs/1312.1254) |
