@@ -1,3 +1,6 @@
 [submodule "libs/manopt"]
 	path = libs/manopt
 	url = https://github.com/andrewssobral/manopt.git
+[submodule "libs/PROPACK"]
+	path = libs/PROPACK
+	url = https://github.com/andrewssobral/PROPACK.git
