@@ -35,4 +35,13 @@ List of the algorithms:
 |                | [ScGrassMC](https://github.com/andrewssobral/mctc4bmi/blob/master/algs_mc/ScGrassMC) | [Ngo and Saad (2012)](http://dl.acm.org/citation.cfm?id=2999292) |
 |                | [SVP](https://github.com/andrewssobral/mctc4bmi/blob/master/algs_mc/SVP) | [Jain et al.(2010)](https://arxiv.org/abs/0909.5457) |
 |<sub>**Tensor Completion**</sub>| | |
+|                | [BCPF](https://github.com/andrewssobral/mctc4bmi/tree/master/algs_tc/BCPF) | [Zhao et al. (2015)](https://arxiv.org/abs/1401.6497) |
+|                | [geomCG](https://github.com/andrewssobral/mctc4bmi/tree/master/algs_tc/geomCG) | [Kressner et al. (2013)](http://link.springer.com/article/10.1007/s10543-013-0455-z) |
+|                | [LRTC](https://github.com/andrewssobral/mctc4bmi/tree/master/algs_tc/LRTC) | [Liu et al. (2013)](http://ieeexplore.ieee.org/document/6138863/) |
+|                | [NCPC](https://github.com/andrewssobral/mctc4bmi/tree/master/algs_tc/NCPC) | [Xu et al. (2013)](http://epubs.siam.org/doi/abs/10.1137/120887795) |
+|                | [HoRPCA-IALM](https://github.com/andrewssobral/mctc4bmi/tree/master/algs_tc/RLRT) | [Goldfarb and Qin (2013)](https://arxiv.org/abs/1311.6182) |
+|                | [SPC](https://github.com/andrewssobral/mctc4bmi/tree/master/algs_tc/SPC) | [Yokota et al. (2016)](https://arxiv.org/abs/1505.06611) |
+|                | [TenALS](https://github.com/andrewssobral/mctc4bmi/tree/master/algs_tc/TenALS) | [Jain and Oh (2014)](https://arxiv.org/abs/1406.2784) |
 |                | [TMac](https://github.com/andrewssobral/mctc4bmi/tree/master/algs_tc/TMac) | [Xu et al. (2015)](https://arxiv.org/abs/1312.1254) |
+|                | [tSVD](https://github.com/andrewssobral/mctc4bmi/tree/master/algs_tc/tSVD) | [Zhang et al. (2014)](https://arxiv.org/abs/1407.1785) |
+|                | [t-TNN](https://github.com/andrewssobral/mctc4bmi/tree/master/algs_tc/t-TNN) | [Hu et al. (2015)](https://arxiv.org/abs/1509.02027) |
