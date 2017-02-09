@@ -6,6 +6,8 @@ close, clear, clc;
 addpath(fullfile(pwd,'utils'));
 addpath(fullfile(pwd,'libs','PROPACK'));
 addpath(genpath(fullfile(pwd,'libs','manopt','manopt')));
+addpath(fullfile(pwd,'libs','tensor_toolbox'));
+addpath(fullfile(pwd,'libs','lightspeed'));
 
 %%% Params
 params.debug = 1;
@@ -51,6 +53,44 @@ for alg = 1:size(params.algs_name,2)
   % Build background model
   M_bg = mean(M_hat,2);
   I_bg = reshape(M_bg,size(V,1),size(V,2));
+  if(params.debug)
+    clf,imshow(I_bg);
+    title(current_alg_name);
+    pause(1);
+  end
+  
+  rmpath(genpath(current_alg_path));
+  %break;
+end
+clear alg seq;
+
+%% Tensor completion
+clc;
+params.algs_path = 'algs_tc';
+params.algs_name = get_algs_name(params);
+displog('--- Tensor Completion ---');
+for alg = 1:size(params.algs_name,2)
+  %alg = 1;
+  displog(['Current algorithm: ' params.algs_name(alg).name]);
+  params.current_algorithm = alg;
+  
+  %%% Load algorithm
+  current_alg_name = params.algs_name(params.current_algorithm).name;
+  current_alg_path = fullfile(params.algs_path,current_alg_name);
+  displog(['Loading algorithm: ' current_alg_name]);
+  addpath(genpath(current_alg_path));
+  
+  %%% Tensor completion
+  displog('Performing tensor completion');
+  V(V == 0) = 1e-3;
+  V = V.*Omega;
+  params_tc.T = V;
+  params_tc.Idx = Omega;
+  params_tc.blksize = [16 16];
+  V_hat = run_tc(params_tc); % imagesc(M_hat)
+  
+  % Build background model
+  I_bg = mean(V_hat,3);
   if(params.debug)
     clf,imshow(I_bg);
     title(current_alg_name);

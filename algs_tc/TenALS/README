@@ -1,0 +1,17 @@
+TenALS : A Tensor Completion Algorithm
+
+COPYRIGHT (C) 2014 Prateek Jain, Sewoong Oh
+
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Files included in this package :
+    TenALS.m   : The main reconstruction program
+    testing.m : A sample code to test the TenALS function
+
+Please refer to comments in the source code or do 'help TenALS' in Matlab for usage. Also, refer to "Provable Tensor Factorization with Missing Data"(http://arxiv.org/abs/1406.2784) for details about the algorithm.

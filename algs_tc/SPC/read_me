@@ -1,0 +1,10 @@
+------------------------------------------------------
+You can try just run the
+
+DEMO.m or DEMO_color_image.m
+
+------------------------------------------------------
+For set up, please add path by the following sentence.
+
+addpath('Function_SPC');
+
