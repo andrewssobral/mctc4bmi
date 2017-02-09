@@ -7,3 +7,6 @@
 [submodule "libs/tensor_toolbox"]
 	path = libs/tensor_toolbox
 	url = https://github.com/andrewssobral/tensor_toolbox.git
+[submodule "libs/lightspeed"]
+	path = libs/lightspeed
+	url = https://github.com/andrewssobral/lightspeed.git
