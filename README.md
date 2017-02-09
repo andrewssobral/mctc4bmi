@@ -1,6 +1,10 @@
 # mctc4bmi
 Matrix and Tensor Completion for Background Model Initialization
 
+<p align="center">
+  <img src="https://github.com/andrewssobral/mctc4bmi/blob/master/figs/framework.jpg" />
+</p>
+
 ### Usage example
 Please refer to [main.m](https://github.com/andrewssobral/mctc4bmi/blob/master/main.m) and [demo.m](https://github.com/andrewssobral/mctc4bmi/blob/master/demo.m) files.
 
